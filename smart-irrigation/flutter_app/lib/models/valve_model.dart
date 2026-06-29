@@ -1,42 +1,16 @@
-/// ValveModel — Đại diện cho 1 van tưới
 class ValveModel {
-  final int index;          // 0-based
-  final String name;
-  bool isOpen;
-  bool isLoading;
+  final bool valve1On;
+  final bool valve2On;
 
-  ValveModel({
-    required this.index,
-    required this.name,
-    this.isOpen = false,
-    this.isLoading = false,
+  const ValveModel({
+    required this.valve1On,
+    required this.valve2On,
   });
 
-  String get id => 'valve_${index + 1}';
-  String get label => 'Van ${index + 1}';
-
-  ValveModel copyWith({bool? isOpen, bool? isLoading}) {
+  factory ValveModel.fromMap(Map<String, dynamic> map) {
     return ValveModel(
-      index: index,
-      name: name,
-      isOpen: isOpen ?? this.isOpen,
-      isLoading: isLoading ?? this.isLoading,
+      valve1On: map['valve1_on'] ?? false,
+      valve2On: map['valve2_on'] ?? false,
     );
   }
-
-  factory ValveModel.fromJson(Map<String, dynamic> json, int index) {
-    final key = 'valve_${index + 1}_open';
-    return ValveModel(
-      index: index,
-      name: 'Van ${index + 1}',
-      isOpen: json[key] ?? false,
-    );
-  }
-
-  Map<String, dynamic> toJson() => {
-    'valve_${index + 1}_open': isOpen,
-  };
-
-  @override
-  String toString() => 'ValveModel(index: $index, isOpen: $isOpen)';
 }
