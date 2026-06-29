@@ -1,0 +1,58 @@
+name: smart_irrigation
+description: Smart Irrigation Control System — Flutter App
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase
+  supabase_flutter: ^2.5.0
+
+  # State management
+  get: ^4.6.6
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # UI
+  flutter_svg: ^2.0.10+1
+  fl_chart: ^0.68.0
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+  animated_toggle_switch: ^0.8.4
+  percent_indicator: ^4.2.3
+
+  # Utils
+  intl: ^0.19.0
+  shared_preferences: ^2.3.2
+  logger: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
