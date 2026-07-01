@@ -64,7 +64,7 @@ class AppTheme {
         labelLarge: TextStyle(color: textPrimary, fontWeight: FontWeight.w600),
       ),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: bgCard,
       elevation: 0,
       shape: RoundedRectangleBorder(
