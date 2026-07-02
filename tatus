@@ -1,0 +1,62 @@
+[33md882f79[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Move project into smart-irrigation directory
+D	flutter_app/.gitignore
+D	flutter_app/README.md
+M	smart-irrigation/.gitignore
+R100	flutter_app/.metadata	smart-irrigation/.metadata
+M	smart-irrigation/README.md
+R100	flutter_app/analysis_options.yaml	smart-irrigation/analysis_options.yaml
+R100	flutter_app/android/.gitignore	smart-irrigation/android/.gitignore
+R100	flutter_app/android/app/build.gradle.kts	smart-irrigation/android/app/build.gradle.kts
+R100	flutter_app/android/app/src/debug/AndroidManifest.xml	smart-irrigation/android/app/src/debug/AndroidManifest.xml
+R100	flutter_app/android/app/src/main/AndroidManifest.xml	smart-irrigation/android/app/src/main/AndroidManifest.xml
+R100	flutter_app/android/app/src/main/kotlin/com/example/smart_irrigation/MainActivity.kt	smart-irrigation/android/app/src/main/kotlin/com/example/smart_irrigation/MainActivity.kt
+R100	flutter_app/android/app/src/main/res/drawable-v21/launch_background.xml	smart-irrigation/android/app/src/main/res/drawable-v21/launch_background.xml
+R100	flutter_app/android/app/src/main/res/drawable/launch_background.xml	smart-irrigation/android/app/src/main/res/drawable/launch_background.xml
+R100	flutter_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png	smart-irrigation/android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+R100	flutter_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png	smart-irrigation/android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+R100	flutter_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png	smart-irrigation/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+R100	flutter_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png	smart-irrigation/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+R100	flutter_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png	smart-irrigation/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+R100	flutter_app/android/app/src/main/res/values-night/styles.xml	smart-irrigation/android/app/src/main/res/values-night/styles.xml
+R100	flutter_app/android/app/src/main/res/values/styles.xml	smart-irrigation/android/app/src/main/res/values/styles.xml
+R100	flutter_app/android/app/src/profile/AndroidManifest.xml	smart-irrigation/android/app/src/profile/AndroidManifest.xml
+R100	flutter_app/android/build.gradle.kts	smart-irrigation/android/build.gradle.kts
+R100	flutter_app/android/gradle.properties	smart-irrigation/android/gradle.properties
+R100	flutter_app/android/gradle/wrapper/gradle-wrapper.properties	smart-irrigation/android/gradle/wrapper/gradle-wrapper.properties
+R100	flutter_app/android/settings.gradle.kts	smart-irrigation/android/settings.gradle.kts
+R100	flutter_app/ios/.gitignore	smart-irrigation/ios/.gitignore
+R100	flutter_app/ios/Flutter/AppFrameworkInfo.plist	smart-irrigation/ios/Flutter/AppFrameworkInfo.plist
+R100	flutter_app/ios/Flutter/Debug.xcconfig	smart-irrigation/ios/Flutter/Debug.xcconfig
+R100	flutter_app/ios/Flutter/Release.xcconfig	smart-irrigation/ios/Flutter/Release.xcconfig
+R100	flutter_app/ios/Runner.xcodeproj/project.pbxproj	smart-irrigation/ios/Runner.xcodeproj/project.pbxproj
+R100	flutter_app/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata	smart-irrigation/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+R100	flutter_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist	smart-irrigation/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+R100	flutter_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings	smart-irrigation/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+R100	flutter_app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme	smart-irrigation/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+R100	flutter_app/ios/Runner.xcworkspace/contents.xcworkspacedata	smart-irrigation/ios/Runner.xcworkspace/contents.xcworkspacedata
+R100	flutter_app/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist	smart-irrigation/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+R100	flutter_app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings	smart-irrigation/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+R100	flutter_app/ios/Runner/AppDelegate.swift	smart-irrigation/ios/Runner/AppDelegate.swift
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png	smart-irrigation/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	smart-irrigation/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+R100	flutter_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png	smart-irrigation/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png
+R100	flutter_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png	smart-irrigation/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png	smart-irrigation/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png
+R100	flutter_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md	smart-irrigation/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+R100	flutter_app/ios/Runner/Base.lproj/LaunchScreen.storyboard	smart-irrigation/ios/Runner/Base.lproj/LaunchScreen.storyboard
+R100	flutter_app/ios/Runner/Base.lproj/Main.storyboa
